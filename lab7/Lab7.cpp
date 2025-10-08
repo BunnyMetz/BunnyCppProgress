@@ -1,4 +1,5 @@
 //Metz Lab 7
+//Simple program to help calculate cal burned during any given amount of time for differnt exersizes 
 
 #include <iostream>
 #include <cmath>
