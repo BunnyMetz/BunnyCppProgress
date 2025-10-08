@@ -1,4 +1,4 @@
-//Metztli Zapata Lab 7
+//Metz Lab 7
 
 #include <iostream>
 #include <cmath>
