@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+
+int main(){
+int DOTW ;
+  
+//user is asked to enter value for the day of the week
+
+    cout << "Please enter a value(1-7) for the corresponding day of the week \n" ;
+    cin >> DOTW ;
+
+//value entered is checked to give corresponding output 
+    switch(DOTW){
+        case 1:
+        cout << "Monday \n";
+        break ; 
+    
+    case 2:
+        cout << "Tuesday \n";
+        break ;
+
+    case 3:
+        cout << "Wednesday \n";
+        break ; 
+    
+    case 4:
+        cout << "Thursday \n";
+        break ; 
+       
+    case 5:
+        cout << "Friday \n";
+        break ; 
+
+    case 6:
+        cout << "Saturday \n";
+        break ; 
+
+    case 7:
+        cout << "Sunday \n";
+        break ; 
+        
+  //Message shown to user if value isnt within the stated range
+        deafult :
+    cout << "invalid value entered \n" ;
+}
+return 0 ;
+}
